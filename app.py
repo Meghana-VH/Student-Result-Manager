@@ -14,6 +14,7 @@ def calculate_result(s1, s2, s3):
         grade = "D"
     else:
         grade = "F"
+
     status = "PASS" if percentage >= 35 else "FAIL"
     return total, percentage, grade, status
 
